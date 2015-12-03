@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio activity</title>
+
+	<style type="text/css">
+		body {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+			font-weight: 300;
+		}
+
+		canvas {
+			border: 1px solid #e66e33;
+		}
+
+		p {
+			margin-left: 50px;
+			margin-bottom: 50px;
+			font-size: 20px;
+			color: red;
+		}
+
+		span {
+			margin: 0 20px;
+			text-align: right;
+			display: inline-block;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<span>Callback using <code>ScriptProcessorNode</code></span>
+	<canvas id="canvas-processor" width="50" height="200"></canvas>
+	<span>Polling with <code>requestAnimationFrame</code></span>
+	<canvas id="canvas-animation" width="50" height="200"></canvas>
+
+	<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>

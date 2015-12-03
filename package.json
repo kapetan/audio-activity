@@ -1,0 +1,33 @@
+{
+  "name": "audio-activity",
+  "version": "1.0.0",
+  "description": "Detect audio activity of a MediaStream",
+  "main": "index.js",
+  "scripts": {
+    "demo-watch": "wzrd demo/index.js:demo/bundle.js",
+    "demo-build": "browserify demo/index.js -o demo/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/audio-activity.git"
+  },
+  "keywords": [
+    "audio",
+    "micrphone",
+    "webrtc",
+    "activity",
+    "level",
+    "indicator",
+    "sound",
+    "media"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/audio-activity/issues"
+  },
+  "homepage": "https://github.com/kapetan/audio-activity#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "wzrd": "^1.3.1"
+  }
+}
