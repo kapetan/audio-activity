@@ -4,7 +4,7 @@ Detect audio activity of a MediaStream. Only works in modern browsers that suppo
 
 	npm install audio-activity
 
-See the [live demo](http://kapetan.github.io/audio-activity/demo/index.html).
+See the [live demo](https://kapetan.github.io/audio-activity/demo/index.html).
 
 # Usage
 
